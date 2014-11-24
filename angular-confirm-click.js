@@ -22,7 +22,6 @@ angular.module('angularConfirmClick', ['ui.bootstrap'])
   				modalInstance.result.then(function () {
   					linkScope.$eval(attrs.confirmClick);
   				});
-
   			});
   		}
   	}
